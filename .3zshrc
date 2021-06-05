@@ -8,6 +8,6 @@ echo -e "\033[33m             ▄▀▀▀█▒▐░▀▀▄▀▀░▌▒�
 echo -e "\033[33m             ▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐ " | lolcat
 
 #DRAW
-PUT 8 0
+PUT 9 0
 figlet -f ASCII-Shadow "\ PROC" | lolcat -t
-PUT 15 0
+PUT 16 0
