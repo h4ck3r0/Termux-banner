@@ -1,7 +1,4 @@
-sudo apt install toilet 
-sudo apt install figlet
-gem install lolcat
-clear
+
 
 RED="\e[31m"
 GREEN="\e[32m"
