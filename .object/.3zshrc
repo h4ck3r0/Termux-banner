@@ -26,5 +26,5 @@ echo -e "\033[33m             ▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒�
 
 #DRAW
 PUT 9 0
-figlet -f ASCII-Shadow "\ PROC" | lolcat -t
+figlet -f ASCII-Shadow "\ \ PROC" | lolcat -t
 PUT 16 0
