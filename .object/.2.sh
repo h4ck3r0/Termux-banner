@@ -13,4 +13,4 @@ echo ""
 cd ~/termux-banner/.object
 echo -e '\e[1;96m'
 read -p '  Type Banner Name ❯ ' name
-sed -e "s/\PROC/$name/g" .2zshrc > $HOME/.zshrc
+sed -e "s/\ PROC/$name/g" .2zshrc > $HOME/.zshrc
