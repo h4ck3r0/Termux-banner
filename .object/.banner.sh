@@ -68,7 +68,7 @@ echo -e "${RED╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${
                                                                                                                                                                                                                                   }
     
                                  selection () {
-                                            cd ~/Termux-os
+                                            cd ~/Termux-banner/.object
                                             echo -e -n "\e[1;96m Choose\e[1;96m Option : \e[0m"
                                             read a
                                             case $a in
