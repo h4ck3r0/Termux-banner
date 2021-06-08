@@ -46,9 +46,9 @@ wr () {
                                                 cd ~/Termux-banner ; bash banner.sh
                                                }
                                                          3line() {
-                                                                  rm -rf ~/termux-banner
+                                                                  rm -rf ~/Termux-banner
                                                                   cd
-                                                                  git clone https://github.com/h4ck3r0/kali-theme
+                                                                  git clone https://github.com/h4ck3r0/Termux-banner
                                                                   cd ~/Termux-banner ; bash banner.sh
                                                                   }
     selection () {
