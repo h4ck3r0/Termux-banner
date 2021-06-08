@@ -41,7 +41,6 @@ wr () {
                                                          cd ~/Termux-banner ; banner.sh
                                        }
                                        2line() {
-                                                sudo chsh -s zsh
                                                 cd ~/Termux-banner/.object ; bash .banner.sh
                                                 cd ~/Termux-banner ; bash banner.sh
                                                }
