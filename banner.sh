@@ -10,7 +10,7 @@ banner() {
 echo -e "${RED} ▀▀█▀▀ ░░ ▒█▀▀█ █▀▀█ █▀▀▄ █▀▀▄ █▀▀ █▀▀█ "
 echo -e "${RED} ░▒█░░ ▀▀ ▒█▀▀▄ █▄▄█ █░░█ █░░█ █▀▀ █▄▄▀ "
 echo -e "${RED} ░▒█░░ ░░ ▒█▄▄█ ▀░░▀ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀▀ ${ENDCOLOR} "
- echo""
+echo ""
  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92 Youtube/H4Ck3R\e[0m"
 
                   }
@@ -57,7 +57,7 @@ wr () {
 
   menu () {
                                   banner
-                                  printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Necessary \n"                                                                                                                                                               Setup \n"
+                                  printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Necessary Setup \n"
                                   printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Banners \n"
                                   printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Update\n"
                                   printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Exit\n\n\n"
