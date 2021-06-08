@@ -54,7 +54,7 @@ wr () {
     selection () {
                                            
                                             echo -e -n "\e[1;96m Choose\e[1;96m Option : \e[0m"
-                                            cd ~/temux-banner
+                                            cd ~/Termux-banner
                                             read a
                                             case $a in
                                             1) 1line ;;
