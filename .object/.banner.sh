@@ -1,4 +1,18 @@
-banner ( ) {
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+banner() {
+
+ 
+
+echo -e "${RED}╔╗"
+echo -e "${RED║║"
+echo -e "${RED║╚═╦══╦═╗╔═╗╔══╦═╦══╗"
+echo -e "${RED║╔╗║╔╗║╔╗╣╔╗╣║═╣╔╣══╣"
+echo -e "${RED║╚╝║╔╗║║║║║║║║═╣║╠══║"
+echo -e "${RED╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${ENDCOLOR} "
+
                   
                   
                   printf ""
