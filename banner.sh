@@ -37,13 +37,7 @@ wr () {
                                                 cd ~/kali-theme/.object ; bash .1.sh
                                                 cd ~/termux-banner ; bash banner.sh
                                                }
-                                               3line() {
-                                                       sudo chsh -s zsh 
-                                                       cd ~/kali-theme/.object ; bash .2.sh                                                      
-                                                       cd ~/termux-banner ; bash banner.sh
-                                                       
-                                                         }
-                                                          4line() {
+                                                         3line() {
                                                                   rm -rf ~/termux-banner
                                                                   cd
                                                                   git clone https://github.com/h4ck3r0/kali-theme
@@ -58,8 +52,7 @@ wr () {
                                             1) 1line ;;
                                             2) 2line ;;
                                             3) 3line ;;
-                                            4) 4line ;;
-                                            5) exit ;;
+                                            4) exit ;;
                                             *) wr ;;
 
                                             esac 
@@ -69,9 +62,8 @@ wr () {
                                   banner
                                   printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Necessary \n"                                                                                                                                                               Setup \n"
                                   printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Banners \n"
-                                  printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Highlight & Suggestion\n"
-                                  printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Update\n"
-                                  printf "\033[1;91m[\033[0m5\033[1;91m]\033[1;92m Exit\n\n\n"
+                                  printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Update\n"
+                                  printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Exit\n\n\n"
                                   
                                   selection
                                   }
