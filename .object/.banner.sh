@@ -14,7 +14,7 @@ echo -e "${RED║╚╝║╔╗║║║║║║║║═╣║╠══║"
 echo -e "${RED╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${ENDCOLOR} "
 
                   
-                  
+                  }
                   printf ""
                   echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92myoutube.com/h4ck3r0\e[0m"
                   }
@@ -29,36 +29,36 @@ echo -e "${RED╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${
                                                          cd ~/Termux-banner/.object ; bash .banner.sh
                                                          
                                                          }
-                                                         2line() {
+                                                                                2line() {
                                                                                 cd ~/Termux-banner/.object
-                                                         bash .2.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                bash .2.sh
+                                                                                cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                 }
-                                                                               3line() {
-                                                                                                  cd ~/Termux-banner/.object
-                                                         bash .3.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                 3line() {
+                                                                                                   cd ~/Termux-banner/.object
+                                                                                                   bash .3.sh
+                                                                                                   cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                                   }
                                                                                                    4line() {
                                                                                                                           cd ~/Termux-banner/.object
-                                                         bash .4.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                                                  bash .4.sh
+                                                                                                                  cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                                                          }
                                                                                                                          5line() {
                                                                                                                                                cd ~/Termux-banner/.object
-                                                         bash .5.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                                                                     bash .5.sh
+                                                                                                                                     cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                                                                                   }
                                                                                                                                                  
                                                                                                                                                 6line() {
                                                                                                                                                                           cd ~/Termux-banner/.object
-                                                         bash .6.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                                                                                               bash .6.sh
+                                                                                                                                                              cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                                                                                                        }
                                                                                                                                                                        7line() {
                                                                                                                                                                                                                       cd ~/Termux-banner/.object
-                                                         bash .7.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
+                                                                                                                                                                        bash .7.sh
+                                                                                                                                                                        cd ~/Termux-banner/.object ; bash .banner.sh
                                                                                                                                                                                                                      }
                                                                                                                                                                                                                      8line() {
                                                                                                                                                                                                                                   rm -rf ~/Termux-banner
