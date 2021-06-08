@@ -3,7 +3,8 @@ ZSH_THEME="h4Ck3r"
 plugins=(git)
 
 source $HOME/.oh*/oh-my-zsh.sh
-
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export ZSH=$HOME/.oh-my-zsh
 
 #figlet -f ASCII-Shadow "  h4ck3r" | lolcat -t
