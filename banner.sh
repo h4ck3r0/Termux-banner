@@ -20,25 +20,36 @@ wr () {
                                selection
                                }
                                1line() {
-                                        sudo apt update 
-                                        sudo apt install zsh
-                                        sudo apt install ruby
-                                        sudo apt install wget
-                                        sudo apt install curl
-                                        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-                                        cd ~/termux-banner ; bash banner.sh
-                                        
+                                                                                                apt update && apt upgrade
+                                                         pkg install zsh -y
+                                                         pkg install git -y
+                                                         pkg install ruby  -y
+                                                         pkg install wget  -y
+                                                         gem install lolcat 
+                                                         pkg install curl -y
+                                                         pkg install zsh -y
+                                                         dpkg --configure -a
+                                                         clear
+                                                         wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+                                                         git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+                                                         apt install toilet figlet exa wget ruby 
+                                                         rm -rf ~/.termux/colors.properties
+                                                         rm -rf /data/data/com.termux/files/usr/etc/motd
+                                                         cd ~/Termux-banner/.object ; cp -r .colors.properties ~/.termux/colors.properties
+                                                         cd ~/Termux-banner/.object ; cp -r .termux.properties ~/.termux/termux.properties
+                                                         clear
+                                                         cd ~/Termux-banner ; banner.sh
                                        }
                                        2line() {
                                                 sudo chsh -s zsh
-                                                cd ~/kali-theme/.object ; bash .1.sh
-                                                cd ~/termux-banner ; bash banner.sh
+                                                cd ~/Termux-banner/.object ; bash .banner.sh
+                                                cd ~/Termux-banner ; bash banner.sh
                                                }
                                                          3line() {
                                                                   rm -rf ~/termux-banner
                                                                   cd
                                                                   git clone https://github.com/h4ck3r0/kali-theme
-                                                                  cd ~/termux-banner ; bash banner.sh
+                                                                  cd ~/Termux-banner ; bash banner.sh
                                                                   }
     selection () {
                                            
