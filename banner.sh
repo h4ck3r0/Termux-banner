@@ -42,7 +42,7 @@ wr () {
                                        }
                                        2line() {
                                                 cd ~/Termux-banner/.object ; bash .banner.sh
-                                                cd ~/Termux-banner ; bash banner.sh
+                                                
                                                }
                                                          3line() {
                                                                   rm -rf ~/Termux-banner
