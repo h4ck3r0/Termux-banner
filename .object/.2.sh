@@ -5,8 +5,7 @@ clear
 echo -e "█ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░ █▀▀ █▀█" | lolcat
 echo -e "█ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ ██▄ █▀▄" | lolcat
 echo ""
-echo ""
-PUT 11 40
+PUT 11 20
 echo -e "\e[92mBy\e[1;93m RajAryan\e[1;95m /\e[1;96m H4Ck3R0 "
 PUT 12 3
 echo
