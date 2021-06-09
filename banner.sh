@@ -37,6 +37,7 @@ wr () {
                                                          rm -rf /data/data/com.termux/files/usr/etc/motd
                                                          cd ~/Termux-banner/.object ; cp -r .colors.properties ~/.termux/colors.properties
                                                          cd ~/Termux-banner/.object ; cp -r .termux.properties ~/.termux/termux.properties
+                                                         cd ~/Termux-banner/.object ; bash .theme.sh
                                                          clear
                                                          cd ~/Termux-banner ; banner.sh
                                        }
