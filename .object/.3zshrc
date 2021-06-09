@@ -18,11 +18,11 @@ echo -e ""
 #DRAW
 #figlet -f ASCII-Shadow "\ PROC" | lolcat -t
 PUT 2 0
-echo -e "\033[33m                   ▐███████▌ " | lolcat
-echo -e "\033[33m                   ▐░▀░▀░▀░▌ " | lolcat
-echo -e "\033[33m                   ▐▄▄▄▄▄▄▄▌   " | lolcat
-echo -e "\033[33m             ▄▀▀▀█▒▐░▀▀▄▀▀░▌▒█▀▀▀▄ " | lolcat
-echo -e "\033[33m             ▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐ " | lolcat
+echo -e "\033[33m                       ▐███████▌ " | lolcat
+echo -e "\033[33m                       ▐░▀░▀░▀░▌ " | lolcat
+echo -e "\033[33m                       ▐▄▄▄▄▄▄▄▌   " | lolcat
+echo -e "\033[33m                 ▄▀▀▀█▒▐░▀▀▄▀▀░▌▒█▀▀▀▄ " | lolcat
+echo -e "\033[33m                 ▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐ " | lolcat
 
 #DRAW
 PUT 9 0
