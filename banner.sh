@@ -20,19 +20,8 @@ wr () {
                                selection
                                }
                                1line() {
-                                                                                                apt update && apt upgrade
-                                                         pkg install zsh -y
-                                                         pkg install git -y
-                                                         pkg install ruby  -y
-                                                         pkg install wget  -y
-                                                         gem install lolcat 
-                                                         pkg install curl -y
-                                                         pkg install zsh -y
-                                                         rm -rf ~/.oh-my-zsh
-                                                         clear
+
                                                          wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
-                                                         
-                                                         apt install toilet figlet exa wget ruby 
                                                          rm -rf ~/.termux/colors.properties
                                                          rm -rf /data/data/com.termux/files/usr/etc/motd
                                                          chsh -s zsh
