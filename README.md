@@ -1,1 +1,1 @@
-# termux-banner
+# Termux-banner
