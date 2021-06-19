@@ -22,3 +22,41 @@
 <a href="https://github.com/h4ck3r0"><img title="Watching" src="https://img.shields.io/github/watchers/h4ck3r0/Termux-banner?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/h4ck3r0"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
+
+### AVAILABLE ON :
+
+* Termux
+
+### REQUIREMENTS :
+* Zsh shell
+* storage 10 MB
+* Pkg - Git ; Wget ; Lolcat ; Zsh ; etc
+
+### FEATURES :
+* [+] 10+ Banners ( I will add more soon ) !
+* [+] Pure Zsh Theme !
+* [+] Auto Suggestion | Highlight !
+* [+] Fully Automatic !
+* [+] Easy for Beginners !
+
+## INSTALLATION [Termux] :
+
+* `apt-get update -y`
+* `apt-get upgrade -y`
+* `git clone https://github.com/h4ck3r0/Termux-banner`
+* `cd $HOME`
+* `ls`
+* `cd Termux-banner`
+* `chmod +x *`
+* `bash setup.sh`
+* `bash banner.sh`
+```
+[+]-- Open new session in termux and Check banner 
+```
+## CONNECT WITH US :
+
+<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://rebrand.ly/loginx202266fb40)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://rebrand.ly/h4ck3r-5064aa)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://rebrand.ly/termuxcoding3d8527)
+<a href="https://rebrand.ly/7elzgww"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Noob Hackers-red?style=for-the-badge&logo=Youtube"></a>
