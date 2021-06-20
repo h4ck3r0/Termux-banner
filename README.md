@@ -29,7 +29,7 @@
 
 ### REQUIREMENTS :
 * Zsh shell
-* storage 10 MB
+* Storage 10 MB
 * Pkg - Git ; Wget ; Lolcat ; Zsh ; etc
 
 ### FEATURES :
