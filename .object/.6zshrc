@@ -1,3 +1,15 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH=$HOME/.oh-my-zsh
+
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
 
 echo -e "${RED}$$$$$$$$$$$$$$$$""$o$o$o$o$o$oo$$""$$$$$$$$$$$$$$$"
 echo -e "${RED}$$$$$$$$$$$$""o$$$$$$$$$$"$"$$$$$$$o$"$$$$$$$$$$$$"
@@ -23,4 +35,4 @@ echo -e "${RED}$$$$$$o"$$$o         oo$$$$$$$$$$$$$$$$$$$$"o$$$$$"
 echo -e "${RED}$$$$$$$$o"$$$$ooooo$$$$$$$$$$$$$$$$$$$$$$"o$$$$$$$"
 echo -e "${RED}$$$$$$$$$$o""$$$$$$$$$$$$$$$$$$$$$$$$$"oo$$$$$$$$$"
 echo -e "${RED}$$$$$$$$$$$$$o$""$$$$$$$$$$$$$$$$$""oo$$$$$$$$$$$$"
-echo -e "${RED}$$$$$$$$$$$$$$$$$$o$o$"$"$"$"$oo$o$$$$$$$$$$$$$$$$"
+echo -e "${RED}$$$$$$$$$$$$$$$$$$o$o$"$"$"$"$oo$o$$$$$$$$$$$$$$$$${ENDCOLOR}"
