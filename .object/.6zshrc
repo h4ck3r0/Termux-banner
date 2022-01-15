@@ -16,3 +16,7 @@ echo -e          ▀▀████▄█▄████▀▀"
 echo -e          ─────▀█▀█▀"
  
 
+#DRAW
+PUT 9 0
+figlet -f ASCII-Shadow "\ \ PROC" | lolcat -t
+PUT 16 0
