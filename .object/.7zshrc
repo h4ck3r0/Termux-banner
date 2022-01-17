@@ -38,3 +38,8 @@ echo -e "\033[31m                              XP^X..b   d..X^XX"
 echo -e "\033[31m                              X. 9  .   .  P )X"
 echo -e "\033[31m                              .b  .       .  d."
 echo -e "\033[31m                               .             ."
+#DRAW
+PUT 9 0
+printf "${red}"
+figlet -f ASCII-Shadow "\ \ PROC" 
+PUT 16 0
