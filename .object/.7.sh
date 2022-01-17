@@ -16,4 +16,4 @@ echo ""
 cd ~/Termux-banner/.object
 echo -e '\e[1;96m'
 read -p '  Type Banner Name ❯ ' name
-sed -e "s/\ PROC/$name/g" .6zshrc > $HOME/.zshrc
+sed -e "s/\ PROC/$name/g" .7zshrc > $HOME/.zshrc
