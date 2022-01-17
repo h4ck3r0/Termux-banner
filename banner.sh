@@ -29,7 +29,7 @@ wr () {
                                                          cd ~/Termux-banner/.object ; cp -r .termux.properties ~/.termux/termux.properties
                                                          cd ~/Termux-banner/.object ; bash .theme.sh
                                                          clear
-                                                         cd ~/Termux-banner ; banner.sh
+                                                         cd ~/Termux-banner ; bash banner.sh
                                        }
                                        2line() {
                                                 cd ~/Termux-banner/.object ; bash .banner.sh
