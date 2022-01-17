@@ -10,10 +10,10 @@ export ZSH=$HOME/.oh-my-zsh
 RED="\e[31m"
 GREEN="\e[32m"
 ENDCOLOR="\e[0m"
-echo -e          ─────▄───▄"
-echo -e          ─▄█▄─█▀█▀█─▄█▄"
-echo -e          ▀▀████▄█▄████▀▀"
-echo -e          ─────▀█▀█▀"
+echo -e "\033[31m                 ─────▄───▄"
+echo -e "\033[31m                 ─▄█▄─█▀█▀█─▄█▄"
+echo -e "\033[31m                 ▀▀████▄█▄████▀▀"
+echo -e "\033[31m                 ─────▀█▀█▀"
  
 
 #DRAW
