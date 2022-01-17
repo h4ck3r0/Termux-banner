@@ -1,0 +1,40 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH=$HOME/.oh-my-zsh
+PUT(){ echo -en "\033[${1};${2}H";}
+DRAW(){ echo -en "\033%";echo -en "\033(0";}
+WRITE(){ echo -en "\033(B";}
+HIDECURSOR(){ echo -en "\033[?25l";}
+HIDECURSOR
+echo -e ""
+#DRAW
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+echo -e "\033[31m          .                                                      ."
+echo -e "\033[31m        .n                   .                 .                  n."
+echo -e "\033[31m  .   .dP                  dP                   9b                 9b.    ."
+echo -e "\033[31m 4    qXb         .       dX                     Xb       .        dXp     t"
+echo -e "\033[31mdX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb"
+echo -e "\033[31m9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP"
+echo -e "\033[31m 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP"
+echo -e "\033[31m  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'"
+echo -e "\033[31m    `9XXXXXXXXXXXP' `9XX'   DIE    `98v8P'  HUMAN   `XXP' `9XXXXXXXXXXXP'"
+echo -e "\033[31m        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~"
+echo -e "\033[31m                        )b.  .dbo.dP'`v'`9b.odb.  .dX("
+echo -e "\033[31m                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb."
+echo -e "\033[31m                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb"
+echo -e "\033[31m                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb"
+echo -e "\033[31m                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP"
+echo -e "\033[31m                     `'      9XXXXXX(   )XXXXXXP      `'"
+echo -e "\033[31m                              XXXX X.`v'.X XXXX"
+echo -e "\033[31m                              XP^X'`b   d'`X^XX"
+echo -e "\033[31m                              X. 9  `   '  P )X"
+echo -e "\033[31m                              `b  `       '  d'"
+echo -e "\033[31m                               `             '"
