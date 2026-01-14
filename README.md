@@ -65,7 +65,7 @@ bash banner.sh
 [https://youtu.be/VSG2glraCws](https://youtu.be/VSG2glraCws)
 
 📖 **Detailed Guide:**
-[https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/](https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/)
+[Termux Banner: How to Add Professional Hacker Style [2026 Script]](https://h4ck3r.me/termux-banner-customization-guide/)
 ## CONNECT WITH US :
 
 <a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
