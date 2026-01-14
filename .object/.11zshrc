@@ -1,0 +1,37 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH=$HOME/.oh-my-zsh
+PUT(){ echo -en "\033[${1};${2}H";}
+HIDECURSOR(){ echo -en "\033[?25l";}
+clear; HIDECURSOR
+RED="\e[31m"
+GREEN="\e[32m"
+CYAN="\e[1;36m"
+WHITE="\e[1;37m"
+ENDCOLOR="\e[0m"
+
+echo -e "${RED}"
+echo "████████████████████████████████████████"
+echo "█▄─▄▄─█▄─▄▄▀█─▄▄─█▄─▄▄─█▄─▄▄▀█─▄▄▄▄█─▄▄▄"
+echo "██─▄▄▄██─██─█─██─██─▄█▀██─██─█▄▄▄▄─█─███"
+echo "▀▄▄▄▀▀▀▄▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀"
+echo -e "${ENDCOLOR}"
+echo -e "${CYAN}╔══════════════════════════════════════╗"
+echo -e "║ ${WHITE}SYSTEM ARCHITECTURE: ${GREEN}SECURE        ${CYAN}║"
+echo -e "║ ${WHITE}CORE TEMPERATURE   : ${GREEN}34°C          ${CYAN}║"
+echo -e "╠══════════════════════════════════════╣"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▒▒▒▒░░░  PROC  ░░░░░▒▒▒▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓ ${CYAN}║"
+echo -e "║ ${RED}▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ${CYAN}║"
+echo -e "╚══════════════════════════════════════╝"
+echo -e "${ENDCOLOR}"
+
+PUT 20 0
