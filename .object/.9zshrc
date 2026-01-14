@@ -1,5 +1,5 @@
 #echo ""
-ZSH_THEME="agnoster" # Or your preferred theme
+ZSH_THEME="h4Ck3r" # Or your preferred theme
 plugins=(git)
 
 # --- Source ZSH ---
