@@ -1,14 +1,13 @@
+
 # Termux-banner
-<p align="center">
-<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
-</p>
+
 <p align="center">
 <a href="https://github.com/h4ck3r0/Termux-banner"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-TermuxBanner-green.svg"></a>
-<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Version" src="https://img.shields.io/badge/Version-1.3-green.svg?style=flat-square"></a>
-<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Version" src="https://img.shields.io/badge/Version-3.0-green.svg?style=flat-square"></a>
+<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
-<a href="https://github.com/h4ck3r0/Termux-bannerl"><img title="Termux-banner" src=".img/1.png"></a>
+<a href="https://github.com/h4ck3r0/Termux-banner"><img title="Termux-banner" src=".img/1.png"></a>
 </p>
 <p align="center">
 <a href="https://github.com/h4ck3r0/Termux-banner"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
@@ -28,35 +27,49 @@
 * Termux
 
 ### REQUIREMENTS :
-* Zsh shell
-* Storage 10 MB
-* Pkg - Git ; Wget ; Lolcat ; Zsh ; etc
+* Zsh shell (Installed automatically)
+* Internet Connection
+* Pkg: `git`, `wget`, `lolcat`, `zsh`
 
 ### FEATURES :
-* [+] 10+ Banners ( I will add more soon ) !
-* [+] Pure Zsh Theme !
-* [+] Auto Suggestion | Highlight !
-* [+] Fully Automatic !
-* [+] Easy for Beginners !
+* [+] **13+ Premium Banners**
+* [+] **New Styles:** Cyber Dashboard, Glitch Protocol, DedSec & Dense Art
+* [+] Pure Zsh Theme
+* [+] Auto Suggestion | Syntax Highlighting
+* [+] Dynamic Name Changing
+* [+] Easy Menu-Based Interface
 
 ## INSTALLATION [Termux] :
 
-* `apt-get update -y`
-* `apt-get upgrade -y`
-* `git clone https://github.com/h4ck3r0/Termux-banner`
-* `cd $HOME`
-* `ls`
-* `cd Termux-banner`
-* `chmod +x *`
-* `bash setup.sh`
-* `bash banner.sh`
+Copy and paste the following commands:
+
+```bash
+apt-get update -y && apt-get upgrade -y
+pkg install git -y
+git clone [https://github.com/h4ck3r0/Termux-banner](https://github.com/h4ck3r0/Termux-banner)
+cd Termux-banner
+chmod +x *
+bash setup.sh
+bash banner.sh
+
 ```
-[+]-- Open new session in termux and Check banner 
-```
+
+**Note:**
+
+1. Select **Option 1 (Necessary Setup)** first to install fonts and themes.
+2. Then select **Option 2 (Banners Tool)** to pick your design.
+3. Restart Termux to see changes.
+
+
+📺 **Full Installation Video:**
+[https://youtu.be/VSG2glraCws](https://youtu.be/VSG2glraCws)
+
+📖 **Detailed Guide:**
+[https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/](https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/)
 ## CONNECT WITH US :
 
 <a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/h4ck3r0_official?igsh=NzN1NTNucWhjOXJp)
-[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.h4ck3r.me)
-[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/h4ck3r_group)
+[](https://www.google.com/search?q=https://www.instagram.com/h4ck3r0_official)
+[](https://www.h4ck3r.me)
+[](https://t.me/h4ck3r_group)
 <a href="https://rebrand.ly/7elzgww"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4Ck3R-red?style=for-the-badge&logo=Youtube"></a>
