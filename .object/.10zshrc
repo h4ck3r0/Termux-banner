@@ -1,0 +1,70 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# --- Functions ---
+PUT(){ echo -en "\033[${1};${2}H";}
+HIDECURSOR(){ echo -en "\033[?25l";}
+SHOWCURSOR(){ echo -en "\033[?25h";}
+
+# Glitch Text Effect
+glitch_load() {
+    msg="$1"
+    chars="!@#$%^&*()_+-=[]{}|;:,.<>?"
+    for i in {1..10}; do
+        random_char=${chars:$((RANDOM % ${#chars})):1}
+        echo -ne "\r\033[1;31m[!] DECRYPTING: $random_char $random_char $random_char $random_char"
+        sleep 0.05
+    done
+    echo -ne "\r\033[1;32m[√] DECRYPTING: COMPLETED    \n"
+}
+
+# Progress Bar
+progress_bar() {
+    echo -ne "\033[1;33mLOADING: "
+    for i in {1..20}; do
+        echo -ne "█"
+        sleep 0.03
+    done
+    echo -e " \033[1;32m100%\033[0m"
+}
+
+clear
+HIDECURSOR
+
+# Colors
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+echo -e "${RED}"
+echo "    .   ,  .      .   ,  .  "
+echo "   . \  |  / .   . \  |  / ."
+echo "  .   \ | /   . .   \ | /   ."
+echo "   .__.*.__.     .__.*.__.  "
+echo "   |   |   |     |   |   |  "
+echo "  (    |    )   (    |    ) "
+echo "   |   |   |     |   |   |  "
+echo "    \  |  /       \  |  /   "
+echo "     \`-'-'         \`-'-'    "
+echo -e "${ENDCOLOR}"
+
+PUT 12 0
+glitch_load "SYSTEM"
+progress_bar
+
+echo ""
+echo -e "\033[1;36m ╔════════════════════════════╗"
+echo -e "\033[1;36m ║  IDENTITY : ${RED}PROC"
+echo -e "\033[1;36m ║  ACCESS   : ${GREEN}GRANTED      \033[1;36m║"
+echo -e "\033[1;36m ╚════════════════════════════╝"
+echo ""
+
+# Custom Prompt: Shows time in red
+export PS1="%{$fg[red]%}[%T] %{$fg[cyan]%}%n@termux %{$fg[yellow]%}%~ %{$reset_color%}$ "
+
+SHOWCURSOR
