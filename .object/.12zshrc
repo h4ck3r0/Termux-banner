@@ -1,0 +1,36 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH=$HOME/.oh-my-zsh
+PUT(){ echo -en "\033[${1};${2}H";}
+HIDECURSOR(){ echo -en "\033[?25l";}
+clear; HIDECURSOR
+RED="\e[31m"
+GREEN="\e[32m"
+CYAN="\e[1;36m"
+GREY="\e[1;30m"
+ENDCOLOR="\e[0m"
+
+echo -e "${GREY}"
+echo "      .▄▄██████████████▄▄."
+echo "    .▄████████████████████▄."
+echo "   ▄████████████████████████▄"
+echo "  ▐██████████████████████████▌"
+echo "  ████████████████████████████"
+echo "  ▐████▀   ▀████████▀   ▀████▌"
+echo "   ▀▀        ▀████▀        ▀▀"
+echo -e "${RED}   ▄██▄        ████        ▄██▄"
+echo -e "${RED}  ▐████▌      ▐████▌      ▐████▌"
+echo -e "${GREY}   ▀██▀        ▀██▀        ▀██▀"
+echo "     ▀▄                    ▄▀"
+echo "       ▀▄.              .▄▀"
+echo "         ▀▀▄▄.      .▄▄▀▀"
+echo "             ▀▀▀▀▀▀▀▀"
+echo -e "${ENDCOLOR}"
+
+PUT 12 0
+echo -e "${CYAN}  [ IDENTIFIED: ${RED}PROC${CYAN} ]"
+PUT 16 0
