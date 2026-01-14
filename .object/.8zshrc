@@ -1,0 +1,73 @@
+#echo ""
+ZSH_THEME="h4Ck3r"
+plugins=(git)
+
+
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /data/data/com.termux/files/home/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export ZSH=$HOME/.oh-my-zsh
+
+
+PUT(){ echo -en "\033[${1};${2}H";}
+DRAW(){ echo -en "\033%";echo -en "\033(0";}
+WRITE(){ echo -en "\033(B";}
+HIDECURSOR(){ echo -en "\033[?25l";}
+
+
+typewriter() {
+    text="$1"
+    delay="$2"
+    for ((i=0; i<${#text}; i++)); do
+        echo -n "${text:$i:1}"
+        sleep $delay
+    done
+    echo
+}
+
+
+clear 
+HIDECURSOR
+
+
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+
+echo -e "${RED}"
+echo "           _.-'~~~~~~'-._           "
+echo "          /      ||      \          "
+echo "         /       ||       \         "
+echo "        |        ||        |        "
+echo "        | _______||_______ |        "
+echo "        |/ ----- \/ ----- \|        "
+echo "       /  (     )  (     )  \       "
+echo "      / \  ----- () -----  / \      "
+echo "     /   \      /||\      /   \     "
+echo "    |     \    /||||\    /     |    "
+echo "    |      \  /||||||\  /      |    "
+echo "     \      \/||||||||\/      /     "
+echo "      \      \`========'      /      "
+echo "       \                    /       "
+echo "        \`._              _.'        "
+echo "           \`--.______.--'           "
+echo -e "${ENDCOLOR}"
+
+
+PUT 18 0
+echo -e "${RED}"
+figlet -f small "  DEDSEC"
+echo -e "${ENDCOLOR}"
+
+
+PUT 23 0
+echo -e "${GREEN}"
+
+typewriter " [>] SYSTEM_ID: ROOT" 0.02
+typewriter " [>] ENCRYPTION: ACTIVE" 0.02
+typewriter " [>] TARGET: LOCKED" 0.02
+echo -e "${ENDCOLOR}"
+
+
+PUT 28 0
