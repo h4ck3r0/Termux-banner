@@ -1,105 +1,93 @@
-#!/usr/bin/bash
-clear
+#!/data/data/com.termux/files/usr/bin/bash
+
+TEMPLATE_DIR="$HOME/Termux-banner/.object"
+TARGET_FILE="$HOME/.zshrc"
+
 RED="\e[31m"
 GREEN="\e[32m"
+CYAN="\e[1;36m"
+YELLOW="\e[1;33m"
 ENDCOLOR="\e[0m"
 
-banner() {
+clear_screen() {
+    clear
+}
 
- 
+header() {
+    clear_screen
+    echo -e "${RED}╔╗"
+    echo -e "${RED}║║"
+    echo -e "${RED}║╚═╦══╦═╗╔═╗╔══╦═╦══╗"
+    echo -e "${RED}║╔╗║╔╗║╔╗╣╔╗╣║═╣╔╣══╣"
+    echo -e "${RED}║╚╝║╔╗║║║║║║║║═╣║╠══║"
+    echo -e "${RED}╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${ENDCOLOR} "
+    echo ""
+    echo -e "${RED}  [${GREEN}√${RED}] ${CYAN}By Raj Aryan ${YELLOW}/ ${GREEN}youtube.com/h4ck3r0${ENDCOLOR}"
+    echo ""
+}
 
-echo -e "${RED}╔╗"
-echo -e "${RED}║║"
-echo -e "${RED}║╚═╦══╦═╗╔═╗╔══╦═╦══╗"
-echo -e "${RED}║╔╗║╔╗║╔╗╣╔╗╣║═╣╔╣══╣"
-echo -e "${RED}║╚╝║╔╗║║║║║║║║═╣║╠══║"
-echo -e "${RED}╚══╩╝╚╩╝╚╩╝╚╩══╩╝╚══╝ ${ENDCOLOR} "
-
-                  
-                  
-                  printf ""
-                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92myoutube.com/h4ck3r0\e[0m"
-                  }
-
-                  wr  ( )  {
-                               printf "\033[1;91m Invalid input!!!\n"
-                               selection
-                               }
-                               1line() {
-                                                         cd ~/Termux-banner/.object
-                                                         bash .1.sh
-                                                         cd ~/Termux-banner/.object ; bash .banner.sh
-                                                         
-                                                         }
-                                                                                2line() {
-                                                                                cd ~/Termux-banner/.object
-                                                                                bash .2.sh
-                                                                                cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                }
-                                                                                 3line() {
-                                                                                                   cd ~/Termux-banner/.object
-                                                                                                   bash .3.sh
-                                                                                                   cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                                  }
-                                                                                                   4line() {
-                                                                                                                          cd ~/Termux-banner/.object
-                                                                                                                  bash .4.sh
-                                                                                                                  cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                                                         }
-                                                                                                                         5line() {
-                                                                                                                                               cd ~/Termux-banner/.object
-                                                                                                                                     bash .5.sh
-                                                                                                                                     cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                                                                                  }
-                                                                                                                                                 
-                                                                                                                                                6line() {
-                                                                                                                                                                          cd ~/Termux-banner/.object
-                                                                                                                                                               bash .6.sh
-                                                                                                                                                              cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                                                                                                       }
-                                                                                                                                                                       7line() {
-                                                                                                                                                                                                                      cd ~/Termux-banner/.object
-                                                                                                                                                                        bash .7.sh
-                                                                                                                                                                        cd ~/Termux-banner/.object ; bash .banner.sh
-                                                                                                                                                                                                                     }
-                                                                                                                                                                                                                     8line() {
-                                                                                                                                                                                                                                  rm -rf ~/Termux-banner
-                                                                                                                                                                                                                                  cd
-                                                                                                                                                                                                                                  git clone https://github.com/h4ck3r0/Termux-banner
-                                                                                                                                                                                                                                  cd ~/Termux-banner ; bash banner.sh
-                                                                                                                                                                                                                                  }
+update_banner() {
+    style_number=$1
     
-                                 selection () {
-                                            cd ~/Termux-banner/.object
-                                            echo -e -n "\e[1;96m Choose\e[1;96m Option : \e[0m"
-                                            read a
-                                            case $a in
-                                            1) 1line ;;
-                                            2) 2line ;;
-                                            3) 3line ;;
-                                            4) 4line ;;
-                                            5) 5line ;;
-                                            6) 6line ;;
-                                            7) 7line ;;
-                                            8) 8line ;;
-                                            9) exit ;;
-                                            *) wr ;;
-                                            esac
-                                            }
+    if [[ ! -f "$TEMPLATE_DIR/${style_number}.zshrc" ]]; then
+        echo -e "\n${RED}  [!] Error: File '$TEMPLATE_DIR/${style_number}.zshrc' not found!${ENDCOLOR}"
+        sleep 2
+        main_menu
+        return
+    fi
 
-                  menu () {
-                                  banner
-                                  printf "\n\033[1;91m[\033[0m1\033[1;91m]\033[1;92m Dog \n"
-                                  printf "\033[1;91m[\033[0m2\033[1;91m]\033[1;92m Gun \n"
-                                  printf "\033[1;91m[\033[0m3\033[1;91m]\033[1;92m Zombie\n"
-                                  printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Bear\n"
-                                  printf "\033[1;91m[\033[0m5\033[1;91m]\033[1;92m Banner V2 5\n"
-                                  printf "\033[1;91m[\033[0m6\033[1;91m]\033[1;92m Bat \n"
-                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Skull\n"
-                                  printf "\033[1;91m[\033[0m8\033[1;91m]\033[1;92m Update\n"
-                                  printf "\033[1;91m[\033[0m9\033[1;91m]\033[1;92m Exit\n\n\n"
-                                  
-                                  selection
-                                  }
-                  menu
-                  
+    echo -e "\n${CYAN}  Enter the Name to display in the banner:${ENDCOLOR}"
+    read -p "  ❯ " user_name
+
+    echo -e "\n${GREEN}  [*] Applying Style $style_number...${ENDCOLOR}"
+
+    sed "s/PROC/$user_name/g" "$TEMPLATE_DIR/${style_number}.zshrc" > "$TARGET_FILE"
+
+    echo -e "${GREEN}  [√] Success! Restart Termux to see changes.${ENDCOLOR}"
+    exit 0
+}
+
+update_tool() {
+    echo -e "\n${YELLOW}  [*] Updating Tool...${ENDCOLOR}"
+    rm -rf "$HOME/Termux-banner"
+    git clone https://github.com/h4ck3r0/Termux-banner "$HOME/Termux-banner"
+    echo -e "${GREEN}  [√] Update Complete.${ENDCOLOR}"
+    exit 0
+}
+
+main_menu() {
+    header
+    echo -e "${RED}[${ENDCOLOR}1${RED}]${GREEN} Dog"
+    echo -e "${RED}[${ENDCOLOR}2${RED}]${GREEN} Gun"
+    echo -e "${RED}[${ENDCOLOR}3${RED}]${GREEN} Zombie"
+    echo -e "${RED}[${ENDCOLOR}4${RED}]${GREEN} Bear"
+    echo -e "${RED}[${ENDCOLOR}5${RED}]${GREEN} Banner V2"
+    echo -e "${RED}[${ENDCOLOR}6${RED}]${GREEN} Bat"
+    echo -e "${RED}[${ENDCOLOR}7${RED}]${GREEN} Skull"
+    echo -e "${RED}[${ENDCOLOR}8${RED}]${GREEN} DedSec"
+    echo -e "${RED}[${ENDCOLOR}9${RED}]${GREEN} Update Tool"
+    echo -e "${RED}[${ENDCOLOR}0${RED}]${GREEN} Exit"
+    echo ""
+    echo -e -n "${CYAN} Choose Option : ${ENDCOLOR}"
+    read selection
+
+    case $selection in
+        1|2|3|4|5|6|7|8) 
+            update_banner $selection 
+            ;;
+        9) 
+            update_tool 
+            ;;
+        0) 
+            echo -e "${YELLOW}Exiting...${ENDCOLOR}"
+            exit 0 
+            ;;
+        *) 
+            echo -e "\n${RED}Invalid Input!${ENDCOLOR}"
+            sleep 1
+            main_menu 
+            ;;
+    esac
+}
+
+main_menu
