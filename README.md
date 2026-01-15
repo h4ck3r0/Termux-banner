@@ -46,7 +46,7 @@ Copy and paste the following commands:
 ```bash
 apt-get update -y && apt-get upgrade -y
 pkg install git -y
-git clone [https://github.com/h4ck3r0/Termux-banner](https://github.com/h4ck3r0/Termux-banner)
+git clone https://github.com/h4ck3r0/Termux-banner
 cd Termux-banner
 chmod +x *
 bash setup.sh
